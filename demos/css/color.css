@@ -1,0 +1,45 @@
+.more a{
+	background-color: #ff9800;
+	color: #fff;
+}
+/*
+====================================================
+				Work
+====================================================
+*/
+.work{
+	background-color: #f9f9f9;
+}
+.portfolio-controllers .btn-default{
+	color: #808080;
+}
+.portfolio-controllers .filter-btn{
+	background-color: transparent;
+	color: #222;
+	border-color: #ff9800;
+}
+.portfolio-controllers .filter-btn.active-work{   
+    color: #ff9800;
+}
+.portfolio-link li a i{
+	background-color: transparent;
+	/*border: 1px solid #00CCCC;*/
+	color: #fff;
+}
+.portfolio-link li a:hover i{
+	/*border-color: transparent;*/
+}
+.portfolio-link li a:hover i.fa-link,
+.portfolio-link li a:hover i.fa-plus{
+	background-color: #ff9800;
+	color: #fff;
+}
+.portfolio-item-title{
+	color: #fff;
+}
+.portfolio-item-title:after{
+	background-color: transparent;
+}
+.caption-content{
+	background-color: rgba(225, 225, 225, .7);
+}
