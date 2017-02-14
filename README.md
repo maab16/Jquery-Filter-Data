@@ -9,7 +9,7 @@ insert this two files just before end body tag
 ```
 
 then call filter plugin
-
+```
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('.portfolios').filterData({
@@ -17,3 +17,4 @@ then call filter plugin
 		});
 	});
 </script>
+```
