@@ -48,13 +48,13 @@ put html code
 </div>
 ```
 insert this two files just before end body tag
-```
+```html
 <script src="js/jquery.min.js"></script>
 <script src="js/filter.min.js"></script>
 ```
 
 then call filter plugin
-```
+```javascript
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('.portfolios').filterData({
