@@ -3,6 +3,7 @@ Filter Data with Jquery animation
 
 # Installation
 put html code
+```html
 <div class="container">
 	<h2 class="work-title title text-center">My Awesome <strong>Work</strong></h2>
 	<div class="row portfolio-controllers-container">
@@ -15,7 +16,7 @@ put html code
 		</div>
 	</div>
 </div>
-<div class="**portfolios**">
+<div class="portfolios">
 	<div class="col-md-4 col-sm-6 portfolio web-design">
 		<figure class="portfolio-image">
 			<img src="https://image-store.slidesharecdn.com/eb72935e-e9f6-4670-a914-8bc45f334d46-large.jpeg" alt="" class="img-responsive">
@@ -45,6 +46,7 @@ put html code
 <div class="more more-work more-container text-center">
 	<a href="#">See More</a>
 </div>
+```
 insert this two files just before end body tag
 ```
 <script src="js/jquery.min.js"></script>
@@ -55,7 +57,7 @@ then call filter plugin
 ```
 <script type="text/javascript">
 	$(document).ready(function(){
-		$('.**portfolios**').filterData({
+		$('.portfolios').filterData({
 			aspectRatio: '8:5', // how many height for single item
 		});
 	});
