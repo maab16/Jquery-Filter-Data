@@ -3,7 +3,6 @@ Filter Data with Jquery animation
 
 # Installation
 put html code
-```
 <div class="container">
 	<h2 class="work-title title text-center">My Awesome <strong>Work</strong></h2>
 	<div class="row portfolio-controllers-container">
@@ -46,7 +45,6 @@ put html code
 <div class="more more-work more-container text-center">
 	<a href="#">See More</a>
 </div>
-```
 insert this two files just before end body tag
 ```
 <script src="js/jquery.min.js"></script>
