@@ -22,7 +22,7 @@
             itemWidth : 0,
             itemHeight : 0,
             itemDistance : 20,
-            animationSpeed : 300,
+            animationSpeed : 0,
             containerAnimationDelay : 500,
             allContainerAnimationSpeed : 500,
             easing                      : 'swing',
