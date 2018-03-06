@@ -1,10 +1,10 @@
 /**
- * hover figure caption with mouse direction
+ * jQuery Filter Plugin
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  * 
  * Copyright 2016 MAAB
- * http://www.github.com/maab16/hover-figure-caption-with-mouse-direction
+ * https://github.com/maab16/Jquery-Filter-Data/
  */
  
 ;(function($,window,document,undefined){
