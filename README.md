@@ -63,3 +63,50 @@ then call filter plugin
 	});
 </script>
 ```
+
+#Options
+```
+$('.portfolios').filterData({
+	containerWidth : 0, // Main Container Width
+        containerHeight : 0, // Main Container Height
+        nOfRow : 0, // How many rows you want to show
+        nOfColumn : 0, // How many columns you want to show
+        aspectRatio : '1:1', // how many height for single item
+        containerMargin : '0px auto', // Main container margin
+        itemWidth : 0, // Single item width
+        itemHeight : 0, // Single item height
+        itemDistance : 20, // Distance between two items
+        animationSpeed : 300, // Animation speed in milliseconds
+        containerAnimationDelay : 500, // Delay in milliseconds
+        allContainerAnimationSpeed : 500, // milliseconds
+        easing : 'swing', // Animation easing function
+        margin : 0,
+	// Responsive Breakpoints
+        responsive : [
+		{
+		    breakpoint : 1200,
+		    containerWidth : 1170,
+		    settings : {
+			nOfRow : 3,
+			nOfColumn : 3
+		    }
+		},
+		{
+		    breakpoint : 992,
+		    containerWidth : 970,
+		    settings : {
+			nOfRow : 3,
+			nOfColumn : 3
+		    }
+		},
+		{
+		    breakpoint : 768,
+		    containerWidth : 750,
+		    settings : {
+			nOfRow : 2,
+			nOfColumn : 2
+		    }
+		}
+	    ]
+});
+```
